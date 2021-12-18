@@ -3,3 +3,82 @@
     flex-grow: 1;
 
 }
+
+.container{
+    display: flex;
+    // align-items: center;
+}
+
+.overview-left{
+    display:flex;
+    flex-direction: column;
+    width: 250px;
+    padding: 43px 0px 0px 35px;
+    background-color: red;
+    background-image: linear-gradient( 180deg, #5F00D8, #B200F1);
+
+    &__logo{
+       margin-bottom: 35px;
+    }
+    &__line{
+        margin-bottom: 36px;
+    }
+    &__list{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    &__item{
+        display:flex;
+        margin-bottom: 40px;
+    }
+    &__item1{
+        display:flex;
+        margin-top:220px;
+        margin-bottom: 45px;
+    }
+    &__desc{
+        margin: 0;
+    }
+    &__link{
+        text-decoration:none;
+        font-family: Lato;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+        margin-left: 21px;
+    }
+}
+
+// OVERVIEW
+.overview {
+    width: 1190px;
+    &__heading{
+        margin: 0;
+        margin-top:25px;
+        margin-left: 50px;
+    }
+    &__navbar{
+        margin-bottom: 50px;
+        margin-left: 50px;
+    }
+
+    &__table{
+        margin-left: 100px;
+    }
+    &__thead{
+        margin-bottom: 100px;
+    }
+    &__table-in{
+        display:flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+    &__body-in{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+}
